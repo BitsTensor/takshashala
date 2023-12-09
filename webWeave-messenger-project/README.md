@@ -4,6 +4,10 @@ This application represents a social messaging platform built upon the foundatio
 
 Social messaging platforms yield extensive social and economic benefits. Socially, they streamline communication, fostering global connectivity and community cohesion irrespective of geographic boundaries. These platforms facilitate information dissemination, nurturing support networks and knowledge sharing. Economically, they offer businesses direct engagement with customers, reducing communication costs and enabling targeted marketing. They serve as invaluable tools for market research, aiding in product development and strategy. Moreover, their growth contributes to job creation in digital marketing, content creation, and customer service sectors, thereby amplifying economic opportunities and bolstering industries in the digital landscape.
 
+## Sample Preview  
+
+![png](scr/image.png)
+
 ## Installation
 - Describe the installation steps
 - List any system dependencies or requirements
