@@ -6,7 +6,13 @@ Social messaging platforms yield extensive social and economic benefits. Sociall
 
 ## Sample Preview  
 
-![png](scr/image.png)
+- Homepage
+  
+  ![png](scr/image.png)
+
+- Login Page
+
+   
 
 ## Installation
 - Describe the installation steps
