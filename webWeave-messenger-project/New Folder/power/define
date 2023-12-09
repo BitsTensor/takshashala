@@ -1,0 +1,23 @@
+// defines method to shutdown different os 
+#pragma once						       		// only once Source: https://learn.microsoft.com/en-us/cpp/preprocessor/once
+#include<cstdlib>							// https://cplusplus.com/reference/cstdlib/ #or https://en.cppreference.com/w/cpp/header/cstdlib
+
+// define variables for linux systems ----------------------------------
+#define LINUX_REBOOT "reboot"						// restart (reboot) system now
+#define LUNIX_FORCE_REBOOT "reboot -f"					// force restart system 
+#define LINIX_REBOOT_NOW "shutdown -r now" 				// make restart system now (immediately)
+#define LINUX_REBOOT_N "shutdown -r +"					// make restart system after n minutes (as to restart after 10 minutes -> $shutdown -r +10"
+#define LINUX_SHUTDOWN "shutdown"					// make shutdown system 
+#define LINUX_FORCE_SHUTDOWN "shutdown -h -P"				// make force shutdown systems 
+#define LINUX_FORCE_SHUTDOWN_NOW "shutdown -h -P now"			// make force shutdown systems 
+#define LINUX_SHUTDOWN_N "shutdown -P +"				// make shutdown system after n seconds (as to shutdown after 10 minutes -> $shutdown -P +10"
+
+// define variables for windows systems --------------------------------
+#define WINDOWS_REBOOT "shutdown /r /t 0"				// restart (reboot) system now
+#define WINDOWS_FORCE_REBOOT "shutdown /r /t 0"				// force restart system 
+#define WINDOWS_REBOOT_NOW "shutdown /r /t 0" 				// make restart system now (immediately)
+#define WINDOWS_REBOOT_N "shutdown /r /t "				// make restart system after n minutes (as to restart after 10 minutes -> $shutdown /r /t 10"
+#define WINDOWS_SHUTDOWN "shutdown /s /f /t 0"				// make shutdown system 
+#define WINDOWS_FORCE_SHUTDOWN "shutdown /s /f /t 0"			// make force shutdown systems 
+#define WINDOWS_FORCE_SHUTDOWN_NOW "shutdown /s /f /t 0"		// make force shutdown systems 
+#define WINDOWS_SHUTDOWN_N "shutdown /s /f /t "				// make shutdown system after n seconds (as to shutdown after 10 minutes -> $shutdown /s /f /t 10"

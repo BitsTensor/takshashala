@@ -1,0 +1,70 @@
+// This class is used to setup server 
+#pragma once						       		// only once Source: https://learn.microsoft.com/en-us/cpp/preprocessor/once
+
+#include<iostream>							// (input / output file) source: https://en.cppreference.com/w/cpp/header/iostream #or https://cplusplus.com/reference/iostream/
+#include<cstring>							// source: https://cplusplus.com/reference/cstring/ #or https://en.cppreference.com/w/cpp/header/cstring
+#include<sys/socket.h>							// https://manpages.ubuntu.com/manpages/trusty/man7/sys_socket.h.7posix.html #or https://ftp.gnu.org/old-gnu/Manuals/glibc-2.2.3/html_chapter/libc_16.html #or https://pubs.opengroup.org/onlinepubs/009695399/basedefs/sys/socket.h.html
+#include<arpa/inet.h>							// https://manpages.ubuntu.com/manpages/trusty/man7/inet.h.7posix.html #or https://pubs.opengroup.org/onlinepubs/7908799/xns/arpainet.h.html #or https://ftp.gnu.org/old-gnu/Manuals/glibc-2.2.3/html_node/libc_308.html
+#include<unistd.h>							// (close method -> close(socket)) source: https://manpages.ubuntu.com/manpages/trusty/man7/unistd.h.7posix.html #or https://pubs.opengroup.org/onlinepubs/7908799/xsh/unistd.h.html
+#include<thread>							// source: https://en.cppreference.com/w/cpp/thread/thread
+#include<map>								// (dictionary : key -> value) source: https://en.cppreference.com/w/cpp/container/map #or https://cplusplus.com/reference/map/map/
+#include<vector>							// (list of threads and keys) source: https://en.cppreference.com/w/cpp/container/vector #or https://cplusplus.com/reference/vector/vector/
+
+#define SERVER_INFO_LEVEL 2						// info level - 0 : no-info (not error), 1 : only error, 2 : all-info
+#define CLIENT_INFO_LEVEL 2						// info level - 0 : no-info (not error), 1 : only error, 2 : all-info
+#define SERVER_BUFFER_SIZE 1024 					// default buffer size 
+
+struct CustomSocket{							// define custom socket structure 
+	public:								// define all public attributes
+		int type;						// type of socket - 0 : client and 1 : server 
+		int state=0;						// state of server / client (negative means failed state)
+		unsigned int infoLevel=2;				// info level - 0 : no-info (not error), 1 : only error, 2 : all-info
+		struct sockaddr_in address;				// define server connection address variable (for server / client)
+		int customSocket;					// define server / client socket attribute 
+	//private:							// define all private attributes
+	public: 							// define all public methods (functions)
+		CustomSocket();						// define null (empty) structure build method (constructor) - used by server class to define server and client attributes
+		CustomSocket(						// define structure build method (constructor) for server only 
+			const int type,					// type of socket - 0 : client and 1 : server 
+			const std::string& ip,				// server / client IP address 
+			const int port,					// server / client port number 
+			int infoLevel					// info level - 0 : no-info (not error), 1 : only error, 2 : all-info
+		);							// end of structure build method (constructor) definition for server only 
+		CustomSocket(						// define structure build method (constructor) for client only 
+			CustomSocket& serviceSocket,			// server socket object 
+			const int type,					// type of socket - 0 : client and 1 : server 
+			const std::string& ip,				// server / client IP address 
+			const int port,					// server / client port number 
+			int infoLevel					// info level - 0 : no-info (not error), 1 : only error, 2 : all-info
+		);							// end of structure build method (constructor) definition for client only 
+		void coreListener(					// define core listener (threaded) method 
+			const int BUFFER_SIZE				// buffer size of connection 
+		);							// end of core listener method 
+		void closeSocket();					// method to close socket connection 
+};									// end of custom socket class definition 
+
+
+class Server{								// define server class 
+	//public:						       	// define all public attributes 	
+	private:					       		// define all private attributes
+		CustomSocket serviceSocket;				// define server socket structure 
+		std::map<std::string,CustomSocket>clientSockets;	// define map of client sockets structure, key -> IP:port, value -> socket
+		std::vector<std::string>clientSocketsAddress;		// define vector of client sockets addresses (keys)
+		std::vector<std::thread>clientSocketThreads;		// define vector of client sockets threads 
+	public: 					       		// define all public methods (functions)
+		Server(							// define build (constructor) method  
+			const std::string& serviceIP="127.0.0.1", 	// define default ip address for server 
+			const int servicePort=8080,			// define default port number for server 
+			int infoLevel=SERVER_INFO_LEVEL			// info level - 0 : no-info (not error), 1 : only error, 2 : all-info
+		);							// end of server build (constructor) method 
+		bool startListenAt(					// define method to connect to client 			
+			const std::string& clientIP="127.0.0.1",	// define default ip address for client
+			const int clientPort=8080,			// define default port number for client
+			const int BUFFER_SIZE=SERVER_BUFFER_SIZE,	// define default buffer size for connection 
+			int infoLevel=CLIENT_INFO_LEVEL			// info level - 0 : no-info (not error), 1 : only error, 2 : all-info
+		);							// end of listener method 
+		void waitTillCommunicationEnds();			// make all threads join
+		void closeServiceSocket();				// method to close server socket 
+		void disconnectAllClients();				// method to close all client sockets connected to server
+	//private:  					       		// define all private methods (functions)	
+};									// end of server class definition 

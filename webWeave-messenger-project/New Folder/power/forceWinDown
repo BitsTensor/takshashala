@@ -1,0 +1,18 @@
+#pragma once						       		// only once Source: https://learn.microsoft.com/en-us/cpp/preprocessor/once
+
+#include <windows.h>							// https://learn.microsoft.com/en-us/windows/win32/api/winbase/ #or https://en.wikipedia.org/wiki/Windows.h
+
+int winDown() {
+    HANDLE token;
+    TOKEN_PRIVILEGES privileges;   
+    // Open process token
+    OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &token);   
+    // Enable shutdown privilege
+    LookupPrivilegeValue(NULL, SE_SHUTDOWN_NAME, &privileges.Privileges[0].Luid);
+    privileges.PrivilegeCount = 1;
+    privileges.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
+    AdjustTokenPrivileges(token, FALSE, &privileges, 0, NULL, NULL);
+    // Force shutdown
+    ExitWindowsEx(EWX_SHUTDOWN | EWX_FORCE, 0);
+    return 0;
+}
