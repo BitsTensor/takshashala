@@ -1,0 +1,996 @@
+.heading2{
+    font-size: 250%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.bodhitemple{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.mahabodhi2{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.note1{
+    font-size:100%;
+    width: 58%;
+
+}
+.ashokanpillar{
+    font-size: 200%;
+    margin-top: 10px;
+    /* margin-left: 2%; */
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ashokan2{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.mahabodhi3{
+    position:absolute;
+    left:60%;
+    height: 50%;
+    width: 35%;
+    top:130%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.ashokan3{
+    position:absolute;
+    left:60%;
+    height: 43%;
+    width: 35%;
+    top:123%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.tutlabhawani{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    /* margin-bottom: 15px; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.tutla2{
+    position:absolute;
+    left:60%;
+    height: 50%;
+    width: 35%;
+    
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+#destination{
+    font-size: 500%;
+    font-family:algerian;
+    text-decoration: underline rgb(231, 35, 35);
+    text-align: center;
+}
+.title{
+    font-size: 450%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration:underline rgb(124, 2, 2);
+    margin-top: 50px;
+    
+}
+.picture1{
+    height: 450px;
+    width: 400px;
+     margin-left:160px ;
+     margin-top: 100px;
+     border-radius: 30px;
+     border-style:ridge;
+     
+}
+.place1{
+    font-size: 40px;
+    margin-left: 200px;
+    color:   rgb(4, 121, 66);
+    
+    
+
+}
+.place2{
+    font-size: 40px;
+    margin-left: 370px;
+    color:   rgb(4, 121, 66);
+    position: absolute;
+}
+.place3{
+    font-size: 40px;
+    margin-left: 950px;
+    color:   rgb(4, 121, 66);
+}
+.picture2{
+    height: 450px;
+    width: 400px;
+     margin-left:160px ;
+     margin-top: 100px;
+     border-radius: 30px;
+     border-style:ridge;
+     
+}
+.place4{
+    font-size: 40px;
+    margin-left: 200px;
+    color:   rgb(4, 121, 66);
+}
+.place5{
+    font-size: 40px;
+    margin-left: 220px;
+    color:   rgb(4, 121, 66);
+    position: absolute;
+}
+.place6{
+    font-size: 40px;
+    margin-left: 850px;
+    color:   rgb(4, 121, 66);
+}
+.picture3{
+    height: 450px;
+    width: 400px;
+     margin-left:160px ;
+     margin-top: 100px;
+     border-radius: 30px;
+     border-style:ridge;
+     
+}
+.place7{
+    font-size: 40px;
+    margin-left: 200px;
+    color:   rgb(4, 121, 66);
+}
+.place8{
+    font-size: 40px;
+    margin-left: 0px;
+    color:   rgb(4, 121, 66);
+    position: absolute;
+    left:25%;
+}
+.place9{
+    font-size: 40px;
+    margin-left: 950px;
+    color:   rgb(4, 121, 66);
+    position: absolute;
+    left:23%;
+}
+.picture3{
+    height: 450px;
+    width: 400px;
+     margin-left:160px ;
+     margin-top: 100px;
+     border-radius: 30px;
+     border-style:ridge;
+     
+}
+.place7{
+    font-size: 40px;
+    margin-left: 200px;
+    color:   rgb(4, 121, 66);
+}
+.place8{
+    font-size: 40px;
+    margin-left: 370px;
+    color:   rgb(4, 121, 66);
+    position: absolute;
+}
+.place9{
+    font-size: 40px;
+    margin-left: 950px;
+    color:   rgb(4, 121, 66);
+}
+.picture4{
+    height: 450px;
+    width: 400px;
+     margin-left:160px ;
+     margin-top: 100px;
+     border-radius: 30px;
+     border-style:ridge;
+     
+}
+.place10{
+    font-size: 40px;
+    margin-left: 150px;
+    color:   rgb(4, 121, 66);
+    
+}
+.place11{
+    font-size: 40px;
+    margin-left: 190px;
+    color:   rgb(4, 121, 66);
+}
+.place12{
+    font-size: 40px;
+    margin-left: 220px;
+    color:   rgb(4, 121, 66);  
+}
+.picture5{
+    height: 450px;
+    width: 400px;
+     margin-left:160px ;
+     margin-top: 100px;
+     border-radius: 30px;
+     border-style:ridge;    
+}
+.place13{
+    font-size: 40px;
+    margin-left: 200px;
+    color:   rgb(4, 121, 66);
+}
+.place14{
+    font-size: 40px;
+    margin-left: 340px;
+    color:   rgb(4, 121, 66);
+    position: absolute;
+}
+.place15{
+    font-size: 40px;
+    margin-left: 950px;
+    color:   rgb(4, 121, 66);
+}
+.picture6{
+    height: 450px;
+    width: 400px;
+     margin-left:160px ;
+     margin-top: 100px;
+     border-radius: 30px;
+     border-style:ridge;
+}
+     .picture7{
+        height: 450px;
+        width: 400px;
+         margin-left:160px ;
+         margin-top: 100px;
+         border-radius: 30px;
+         border-style:ridge;
+     }
+     .picture8{
+        height: 450px;
+        width: 400px;
+         margin-left:160px ;
+         margin-top: 100px;
+         border-radius: 30px;
+         border-style:ridge;
+     }
+     .picture9{
+        height: 450px;
+        width: 400px;
+         margin-left:160px ;
+         margin-top: 100px;
+         border-radius: 30px;
+         border-style:ridge;
+     }
+     .picture10{
+        height: 450px;
+        width: 400px;
+         margin-left:160px ;
+         margin-top: 100px;
+         border-radius: 30px;
+         border-style:ridge;
+     }
+     .picture11{
+        height: 450px;
+        width: 400px;
+         margin-left:160px ;
+         margin-top: 100px;
+         border-radius: 30px;
+         border-style:ridge;
+     }
+     .picture12{
+        height: 450px;
+        width: 400px;
+         margin-left:160px ;
+         margin-top: 100px;
+         border-radius: 30px;
+         border-style:ridge; 
+     }
+     .picture13{
+        height: 450px;
+        width: 400px;
+         margin-left:160px ;
+         margin-top: 100px;
+         border-radius: 30px;
+         border-style:ridge;
+     }
+     .picture14{
+        height: 450px;
+        width: 400px;
+         margin-left:160px ;
+         margin-top: 100px;
+         border-radius: 30px;
+         border-style:ridge;
+     }
+     .picture15{
+        height: 450px;
+        width: 400px;
+         margin-left:160px ;
+         margin-top: 100px;
+         border-radius: 30px;
+         border-style:ridge;
+     }
+     .picture16{
+        height: 450px;
+        width: 400px;
+         margin-left:160px ;
+         margin-top: 100px;
+         border-radius: 30px;
+         border-style:ridge;
+          
+     }
+     .picture17{
+        height: 450px;
+        width: 400px;
+         margin-left:160px ;
+         margin-top: 100px;
+         border-radius: 30px;
+         border-style:ridge;
+     }
+     .place16{
+        font-size: 40px;
+        margin-left: 10px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+        left:2%;
+        top:500%;
+
+    }
+    .place17{
+        font-size: 40px;
+        margin-left: 190px;
+        color:   rgb(4, 121, 66);
+        /* position: absolute; */
+        
+    }
+    .place18{
+        font-size: 40px;
+        margin-left: 60px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+        left:43%;
+        top:495%;
+    }
+    .place19{
+        font-size: 40px;
+        margin-left: 770px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+    }
+    .place20{
+        font-size: 40px;
+        margin-left: 195px;
+        color:   rgb(4, 121, 66);
+       
+    }
+    .place21{
+        font-size: 40px;
+        margin-left: 350px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+    }
+    .place22{
+        font-size: 40px;
+        margin-left: 900px;
+        color:   rgb(4, 121, 66);
+       
+    }
+
+    .place24{
+        font-size: 40px;
+        margin-left: -900px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+        top: 655%;
+    }
+    .place25{
+        font-size: 40px;
+        margin-left: -350px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+        top: 655%;
+    }
+    .place26{
+        font-size: 40px;
+        margin-left: 275px;
+        color:   rgb(4, 121, 66);
+    }
+    .place27{
+        font-size: 40px;
+        margin-left: 210px;
+        color:   rgb(4, 121, 66);
+    }
+    .place28{
+        font-size: 40px;
+        margin-left: 250px;
+        color:   rgb(4, 121, 66);
+    }
+    .place29{
+        font-size: 40px;
+        margin-left: 250px;
+        color:   rgb(4, 121, 66);   
+    }
+    .place30{
+        font-size: 40px;
+        margin-left: 280px;
+        color:   rgb(4, 121, 66);     
+    }
+    .place31{
+        font-size: 40px;
+        margin-left: 300px;
+        color:   rgb(4, 121, 66);   
+    }
+    .place32{
+        font-size: 40px;
+        margin-left: 250px;
+        color:   rgb(4, 121, 66);    
+    }
+    .place33{
+        font-size: 40px;
+        margin-left: 350px;
+        color:   rgb(4, 121, 66);    
+    }
+    .place34{
+        font-size: 40px;
+        margin-left: 400px;
+        color:   rgb(4, 121, 66);
+    }
+    .place35{
+        font-size: 40px;
+        margin-left: 200px;
+        color:   rgb(4, 121, 66);
+        /* position: absolute; */
+    }
+    .place36{
+        font-size: 40px;
+        margin-left: 240px;
+        color:   rgb(4, 121, 66);
+        /* position: absolute; */
+    }
+    .place37{
+        font-size: 40px;
+        margin-left: 270px;
+        color:   rgb(4, 121, 66);
+        /* position: absolute; */
+    }
+    .place38{
+        font-size: 40px;
+        margin-left: -330px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+        top: 900;
+    }
+    .place39{
+        font-size: 40px;
+        margin-left: 290px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+        left:30%;
+        
+    }
+    .place40{
+        font-size: 40px;
+        margin-left: 390px;
+        color:   rgb(4, 121, 66);
+        position:absolute;
+        left:58%;
+    }
+    .place41{
+        font-size: 40px;
+        margin-left: 140px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+        left:8%;
+        top:1110%;
+       
+        
+        
+    }
+    .place42{
+        font-size: 40px;
+        margin-left: 260px;
+        color:   rgb(4, 121, 66);
+       
+    }
+    .place43{
+        font-size: 40px;
+        margin-left: 370px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+    }
+    .place44{
+        font-size: 40px;
+        margin-left: 870px;
+        color:   rgb(4, 121, 66);
+       
+    }
+    .place45{
+        font-size: 40px;
+        margin-left: 170px;
+        color:   rgb(4, 121, 66);
+       
+    }
+    .place46{
+        font-size: 40px;
+        margin-left: 340px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+    }
+    .place47{
+        font-size: 40px;
+        margin-left: 840px;
+        color:   rgb(4, 121, 66);
+        
+    }
+    .place48{
+        font-size: 40px;
+        margin-left: 235px;
+        color:   rgb(4, 121, 66);
+        /* position: absolute; */
+    }
+    .place49{
+        font-size: 40px;
+        margin-left: 340px;
+        color:   rgb(4, 121, 66);
+        /* position: absolute; */
+    }
+    .place50{
+        font-size: 40px;
+        margin-left: 340px;
+        color:   rgb(4, 121, 66);
+        position: absolute;
+    }
+    .place51{
+        font-size: 40px;
+         margin-left: 205px; 
+        color:   rgb(4, 121, 66);
+        /* position: absolute; */
+    }
+    .place52{
+        font-size: 40px;
+         margin-left: 210px;
+        color:   rgb(4, 121, 66); 
+    }
+.chandangadh{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }  
+.chandangadh3{
+    position:absolute;
+    left:60%;
+    height: 45%;
+    width: 35%;
+    
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+ }
+ .logobox3{
+    position: absolute;
+    left:1450px;
+    top:55px;
+    height: 25%;
+    width: 15%;
+    border: radius 100%;
+ }
+ .daudkhanfort{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+.dhuakhanfort3{
+    position:absolute;
+    left:60%;
+    height: 55%;
+    width: 35%;
+    
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+ }
+.umatemple{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.umatemple3{
+    position:absolute;
+    left:60%;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.aranyadevi{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.aranyadevitemple2{
+    position:absolute;
+    left:60%;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.jagdishpurfort{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.jagdispurfort2{
+    position:absolute;
+    left:64%;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.stmaryschurch{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.stmarychurch2{
+    position:absolute;
+    left:62%;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.dargahdariyababa{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.dargah2{
+    position:absolute;
+    left:62%;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.bhitiharwaGandhi{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.bhitiharwa2{
+    position:absolute;
+    left:62%;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.kesariyastupa{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.kesariya2{
+    position:absolute;
+    left:62%;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.someshwardham{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.someshwar2{
+    position:absolute;
+    left:62%;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.babarcaves{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.barabarcaves2{
+    position:absolute;
+    left:62%;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.ruinsofvikramshila{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ruinsofvikramshila2{
+    position:absolute;
+    left:62%;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.ajgaibinathtemple{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ajgaibinathtemple2{
+    position:absolute;
+    left:62%;
+    height: 55%;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.vikramshila{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.vikramshila2{
+    position:absolute;
+    left:62%;
+    height: 55%;
+    width: 35%;
+    top:40%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.navlakhmandir{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navlakha2{
+    position:absolute;
+    left:62%;
+    height: 55%;
+    width: 35%;
+    top:40%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.srinath{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.srinath2{
+    position:absolute;
+    left:62%;
+    height: 55%;
+    width: 35%;
+    top:50%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.ahilyamandir{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ahilyamandir2{
+    position:absolute;
+    left:62%;
+    height: 50%;
+    width: 35%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.haleshwarsthan{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.haleshwarsathan2{
+    position:absolute;
+    left:62%;
+    height: 50%;
+    width: 35%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.panthpakar{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.panthpakar2{
+    position:absolute;
+    left:62%;
+    height: 50%;
+    width: 35%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.punauradham{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.punauradham2{
+    position:absolute;
+    left:62%;
+    height: 50%;
+    width: 35%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.laurinandangarh{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.laurinandangarh2{
+    position:absolute;
+    left:62%;
+    height: 50%;
+    width: 35%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.gurudwara3{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.gurudwara2{
+    position:absolute;
+    left:62%;
+    height: 50%;
+    width: 35%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.metaBudha3{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.metabudha2{
+    position:absolute;
+    left:62%;
+    height: 50%;
+    width: 35%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.mandarhill3{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.mandar2{
+    position:absolute;
+    left:62%;
+    height: 50%;
+    width: 35%;
+    top:55%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+
+}
+.dutchbuilding{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.dutchbuilding2{
+    position:absolute;
+    left:62%;
+    height: 50%;
+    width: 35%;
+    top:40%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.mahavirmandir{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.mahavir2{
+    position:absolute;
+    left:62%;
+    height: 50%;
+    width: 35%;
+    top:40%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.sabhyatadwar{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.sabhyatadwar2{
+    position:absolute;
+    left:62%;
+    height: 50%;
+    width: 35%;
+    top:40%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
