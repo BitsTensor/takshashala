@@ -1,0 +1,515 @@
+.litti{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.note1{
+    font-size:100%;
+    width: 58%;
+
+}
+.heading{
+    font-size: 250%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.littichokha2{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.littichokha3{
+    position:absolute;
+    left:68%;
+    height: 50%;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.littichokha4{
+    position: absolute;
+    left:59%;
+    height:58%;
+    width:38%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+h3{
+    font-size: 150%;
+    margin-top: 5%;
+}
+.dahi{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.dahichuda1{
+    height: 50%;
+    width:38%;
+    position: absolute;
+    left:60%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.dahichuda2{
+    position:absolute;
+    top:130%;
+    left:65%;
+    height: 50%;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.dahichuda3{
+    position: absolute;
+    left:60%;
+    top:220%;
+    height:55%;
+    width:35%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.rajgirmahotsav{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.rajgirmahotsav2{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:36%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.rajgirmahotsav3{
+    position:absolute;
+    left:68%;
+    height: 50%;
+    width: 30%;
+    top:165%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.pitrapaksha{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.pitrapaksha2{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:40%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.pitrapaksha3{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:175%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.pitrapaksha4{
+    height: 55%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:260%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.shivratri{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.mahashivratri2{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:40%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.mahashivratri3{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:230%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+
+.madhubanip{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.madhubani2{
+    height: 50%;
+    width:35%;
+    position: absolute;
+    left:63%;
+    top:50%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.madhubani3{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:250%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.woodcrafts{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.woodcraft2{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.woodcraft3{
+    position:absolute;
+    left:65%;
+    height: 50%;
+    width: 30%;
+    top:150%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.woodcraft4{
+    position: absolute;
+    left:59%;
+    height:58%;
+    width:38%;
+    top:305%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.metalCrafts{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.metalcraft2{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.metalcraft3{
+    position:absolute;
+    left:65%;
+    height: 50%;
+    width: 30%;
+    top:150%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.metalcraft4{
+    position: absolute;
+    left:64%;
+    height:50%;
+    width:30%;
+    top:310%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.stoneCrafts{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.stonecraft2{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.stonecraft3{
+    position:absolute;
+    left:65%;
+    height: 50%;
+    width: 30%;
+    top:145%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.stonecraft4{
+    position: absolute;
+    left:64%;
+    height:50%;
+    width:30%;
+    top:320%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.tikulipainting{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.tikuli2{
+    height: 50%;
+    width:35%;
+    position: absolute;
+    left:63%;
+    top:43%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.tikuli3{
+    height: 50%;
+    width:40%;
+    position: absolute;
+    left:59%;
+    top:215%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.ChhathPuja{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.chhathpuja2{
+    height: 50%;
+    width:35%;
+    position: absolute;
+    left:63%;
+    top:43%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.sonePurMela{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.sonepurmela2{
+    height: 50%;
+    width:35%;
+    position: absolute;
+    left:63%;
+    top:43%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.sonepurmela3{
+    height: 40%;
+    width:25%;
+    position: absolute;
+    left:65%;
+    top:150%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.sonepurmela4{
+    position: absolute;
+    left:64%;
+    height:50%;
+    width:30%;
+    top:290%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.jalebii{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.jalebi2{
+    height: 55%;
+    width:40%;
+    position: absolute;
+    left:59.5%;
+    top:35%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.jalebi3{
+    height: 55%;
+    width:35%;
+    position: absolute;
+    left:60%;
+    top:225%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.kasar{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.kasar2{
+    height: 60%;
+    width:37%;
+    position: absolute;
+    left:59.5%;
+    top:38%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.kasar3{
+    height: 60%;
+    width:40%;
+    position: absolute;
+    left:59.5%;
+    top:215%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.launglata{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.launglata2{
+    height: 60%;
+    width:37%;
+    position: absolute;
+    left:59.5%;
+    top:70%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.launglata3{
+    height: 60%;
+    width:40%;
+    position: absolute;
+    left:59.6%;
+    top:190%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.makhanakher{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.makhanakheer2{
+    height: 60%;
+    width:37%;
+    position: absolute;
+    left:59.5%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.makhanakheer3{
+    height: 60%;
+    width:40%;
+    position: absolute;
+    left:59.6%;
+    top:180%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.prakashprav{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.prakashparv3{
+    height: 60%;
+    width:37%;
+    position: absolute;
+    left:59.5%;
+    top:45%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.tilkut{
+    font-size: 200%;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.tilkut2{
+    height: 60%;
+    width:37%;
+    position: absolute;
+    left:59.5%;
+    top:41%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+}
+.tilkut3{
+    height: 60%;
+    width:40%;
+    position: absolute;
+    left:59.5%;
+    top:215%;
+    border-radius: 10px;
+    box-shadow:5px 5px rgb(231, 230, 230);
+
+}
+
