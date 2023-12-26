@@ -1,25 +1,70 @@
-# तक्षशाला (Takshashala)
+# Getting Started with Create React App
 
-Welcome to the [Government Women's Polytechnic, Patna, Bihar](https://www.gwpp.ac.in/) Full Stack Engineering Immersion Program Repository!
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This repository is a tribute to the dedication and proficiency of our talented 3rd-year students who have embarked on the Full Stack Engineering Immersion Program under the guidance of [BitsTensor Tech LLP](https://www.bitstensor.com/). Within this repository, you'll find an assemblage of comprehensive and innovative projects, each showcasing the technical prowess and creativity of these aspiring engineers from Government Women's Polytechnic.
+## Available Scripts
 
-Named तक्षशाला (Takshashala) - a term from Sanskrit symbolizing a workshop or training ground - this repository signifies more than a mere collection. It embodies a space for learning and innovation, where diverse ideas converge and flourish. This name represents a hub for collaboration, inviting varied perspectives and nurturing an environment conducive to growth and knowledge exchange.
+In the project directory, you can run:
 
-Explore this repository to witness the culmination of dedication, creativity, and technical proficiency fostered by [BitsTensor Tech LLP](https://www.bitstensor.com/) and refined by the aspiring minds at Government Women's Polytechnic.
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Submission Guidelines
-- Ensure your project aligns with the skills acquired during the Full Stack Engineering Immersion Program.
-- Provide comprehensive documentation and instructions for setup and usage.
-- Submit your project through a pull request following the repository's guidelines.
-- Projects should be licensed under GPL 3.0 or MIT license to ensure accessibility and openness to the community.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-We encourage all students to contribute their projects and celebrate their hard work and dedication in the realm of Full Stack Engineering.
+### `npm test`
 
-For inquiries or support, please contact us at [info@bitstensor.com](mailto:info@bitstensor.com) or visit our website [bitstensor.com](https://www.bitstensor.com/).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Let's collectively build a vibrant hub of innovative Full Stack Engineering projects!
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
