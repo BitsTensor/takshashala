@@ -1,25 +1,54 @@
-# तक्षशाला (Takshashala)
+# Essences Of Bihar
+"Essences of Bihar"
+   is a fantastic website that talks about the cool and interesting stuff and places from the state of Bihar in India. It shows pictures and stories about Bihar's  historical places,special traditions, history, and art. Whether it's the fun festivals, old traditions, yummy food, or new things happening, the website is like a friend telling you all about the great things in Bihar. It's a simple way to learn and enjoy what makes Bihar awesome!
+## Getting Started with Create React App
+This project was bootstrap with [Create React App]
+## Sample Preview
+#Home Page
+![png](preview/homepage.png)
+![png](preview/homepage-2.png)
+![png](preview/homepage-3.png)
+#destinations
+![png](preview/destinations.png)
 
-Welcome to the [Government Women's Polytechnic, Patna, Bihar](https://www.gwpp.ac.in/) Full Stack Engineering Immersion Program Repository!
+#arts&culture
+![png](preview/arts&culture.png)
 
-This repository is a tribute to the dedication and proficiency of our talented 3rd-year students who have embarked on the Full Stack Engineering Immersion Program under the guidance of [BitsTensor Tech LLP](https://www.bitstensor.com/). Within this repository, you'll find an assemblage of comprehensive and innovative projects, each showcasing the technical prowess and creativity of these aspiring engineers from Government Women's Polytechnic.
+## Installation
+`npm i -g npx`
+-installation of npm 
+`npm create-react-app `
+-installation of node modules and package.json
+`npx create-react-app bihar-tourist-planner`
+-installation of modules and package
+`npm run start`
+-run the aap in development mode.\
+open [http://localhost:3000](http://localhost:3000) to veiw it in your browser.
 
-Named तक्षशाला (Takshashala) - a term from Sanskrit symbolizing a workshop or training ground - this repository signifies more than a mere collection. It embodies a space for learning and innovation, where diverse ideas converge and flourish. This name represents a hub for collaboration, inviting varied perspectives and nurturing an environment conducive to growth and knowledge exchange.
 
-Explore this repository to witness the culmination of dedication, creativity, and technical proficiency fostered by [BitsTensor Tech LLP](https://www.bitstensor.com/) and refined by the aspiring minds at Government Women's Polytechnic.
+## Usage
+`npm i react-dom`
+`npm i react-router-dom`
+- give the route 
+`npm i bootstrap`
+`npm i ngx-bootstrap-navbar`
+- install the nav bar 
 
----
 
-### Submission Guidelines
-- Ensure your project aligns with the skills acquired during the Full Stack Engineering Immersion Program.
-- Provide comprehensive documentation and instructions for setup and usage.
-- Submit your project through a pull request following the repository's guidelines.
-- Projects should be licensed under GPL 3.0 or MIT license to ensure accessibility and openness to the community.
+## License
+- This project is licensed under the MIT License. 
 
-We encourage all students to contribute their projects and celebrate their hard work and dedication in the realm of Full Stack Engineering.
+## Contributing
+Thank you for considering contributing to this project! Here are the basic steps:
+1. **Fork** the repository.
+2. Create a new branch (`git checkout -b feature/issue-name`).
+3. Make your changes and **commit** them (`git commit -am 'Add new feature'`).
+4. **Push** to the branch (`git push origin feature/issue-name`).
+5. Create a new **Pull Request**.
 
-For inquiries or support, please contact us at [info@bitstensor.com](mailto:info@bitstensor.com) or visit our website [bitstensor.com](https://www.bitstensor.com/).
-
-Let's collectively build a vibrant hub of innovative Full Stack Engineering projects!
-
----
+## Contact
+- Email: [priyapatel04122005@gmail.com](mailto:priyapatel04122005@gmail.com) | LinkedIn: [Priya Patel](https://www.linkedin.com/in/priya-patel-3a37b42a6/)
+- Email: [prernasingh30089@gmail.com](mailto:prernasingh30089@gmail.com) | LinkedIn: [Prerna Singh](https://www.linkedin.com/in/prerna-singh-7717642a6/)
+- Email: [supriyasingh03082004@gmail.com](mailto:supriyasingh03082004@gmail.com) | LinkedIn: [Supriya Singh](https://www.linkedin.com/in/supriya-singh-15034b2a4/)
+- Email: [priyasms2021@gmail.com](mailto:priyasms2021@gmail.com) | LinkedIn: [Priya Raj](https://www.linkedin.com/in/priya-raj-258b8b27b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- Email: [0808swetakumari@gmail.com](mailto:0808swetakumari@gmail.com) | LinkedIn: [Sweta Kumari ](https://www.linkedin.com/in/sweta-kumari-b523562a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
