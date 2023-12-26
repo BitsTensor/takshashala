@@ -3,6 +3,16 @@
    is a fantastic website that talks about the cool and interesting stuff and places from the state of Bihar in India. It shows pictures and stories about Bihar's  historical places,special traditions, history, and art. Whether it's the fun festivals, old traditions, yummy food, or new things happening, the website is like a friend telling you all about the great things in Bihar. It's a simple way to learn and enjoy what makes Bihar awesome!
 ## Getting Started with Create React App
 This project was bootstrap with [Create React App]
+## Sample Preview
+#Home Page
+![png](preview/homepage.png)
+![png](preview/homepage-2.png)
+![png](preview/homepage-3.png)
+#destinations
+![png](preview/destinations.png)
+
+#arts&culture
+![png](preview/arts&culture.png)
 
 ## Installation
 `npm i -g npx`
